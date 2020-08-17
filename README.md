@@ -28,9 +28,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+A token is a verification that you have access to view certain content. It is sent to the server, either client or server side, and gives the user permission to access said content.
+
 2. What steps can you take in your web apps to keep your data secure?
+
+A private route is a good step towards making your app more secure. Like said above, auth tokens are another way to allow only verified users to access certain content.
+
 3. Describe how web servers work.
+
+A web server is a server that your content is hosted on. When a user of your application makes any kind of request, whether it be to access a certain page or edit content, it is sent to the server through the modem and the server sends the information back.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+post(CREATE) get(READ) put(UPDATE) delete(DELETE)
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

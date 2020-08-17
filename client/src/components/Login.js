@@ -29,7 +29,7 @@ const handleSubmit = e => {
 }
 
   return (
-    <>
+    <div className="login">
       <form onSubmit={handleSubmit}>
         <h1>Welcome to the Bubble App!</h1>
         <input
@@ -48,7 +48,7 @@ const handleSubmit = e => {
         />
         <button type='submit'>Login</button>
       </form>
-    </>
+    </div>
   );
 };
 
